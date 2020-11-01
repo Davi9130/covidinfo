@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: seagreen;
+  margin-bottom: 3rem;
+}
+
+.header > p {
+  font-size: 30px;
+  padding: 25px;
+}
+
+.header > select {
+  text-align: center;
+}
+.cartao {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+.main_app {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+  .main_app {
+    flex-direction: column;
+  }
+  .world_list {
+    margin-top: 5%;
+  }
+}
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.world_list {
+  margin-right: 2%;
+  background-color: white;
+}
